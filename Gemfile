@@ -22,7 +22,8 @@ gem 'logdna-rails'
 gem 'virtus'
 gem 'colorize'
 gem 'whenever'
-gem 'rails_app_versioning'
+gem 'sqlite3'
+gem 'rails_app_versioning', github: 'nilbus/rails-app-versioning'
 
 source 'https://rails-assets.org' do
   gem 'rails-assets-bootstrap', '3.3.7', source: 'https://rails-assets.org'
